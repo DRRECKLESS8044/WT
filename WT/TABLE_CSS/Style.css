@@ -1,0 +1,17 @@
+table{width:50%;
+	  height:50px;}
+td{border:2px solid-black;
+	border-radius:5px;}
+th{border:2px solid-black;
+	border-radius:5px;}
+tr.red{color:red;
+		font-family:Ariel;
+		border:thin;}
+td.orange{color:orange;
+			font-family:calibri;}
+td.blue{color:blue;
+		font-family:monaco;}
+td.green{color:green;
+		font-family:verdana;}
+td.gray{color:gray;
+font-family:lucida handwriting;}

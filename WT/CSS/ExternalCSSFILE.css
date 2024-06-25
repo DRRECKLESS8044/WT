@@ -1,0 +1,14 @@
+/* style.css */
+
+h1 {
+  color: blue;
+  font-size: 32px;
+}
+
+p {
+  color: green;
+}
+
+ul li {
+  font-weight: bold;
+}

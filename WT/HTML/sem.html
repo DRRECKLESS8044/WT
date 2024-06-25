@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Semester Validation</title>
+  <script>
+    function validateSemester() {
+      var semesterInput = document.getElementById("semester").value;
+
+      if (!semesterInput.match(/^[R]20[E].\d{3}$/)) {
+        alert("Invalid semester format! Please enter a valid semester.");
+        return false;
+      }
+
+      alert("Semester validation successful!");
+      return true;
+    }
+  </script>
+</head>
+<body>
+  <h1>Semester Validation</h1>
+  <form onsubmit="return validateSemester()">
+    <label for="semester">Enter a Semester:</label>
+    <input type="text" id="semester" name="semester" required>
+    <input type="submit" value="Validate">
+  </form>
+</body>
+</html>

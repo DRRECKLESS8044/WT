@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title> Dynamic stacking of images </title>
+</head>
+<body>
+<script type = "text/javascript" >
+var str = "I have 428 dollars but I need 500";
+var simple = str.match (/(\d)/);
+document.write("simple=" + simple +"</br></br>");
+
+var simple1 = str.match (/(\d+)(\d+)(\d+)/);
+document.write("simple1=" + simple1 +"</br></br>");
+
+var simple2 = str.match (/(\d+\d+)(\d+)/);
+document.write("simple2=" + simple2 +"</br></br>");
+
+var simple3 = str.match (/(\d\d\d)/);
+document.write("simple3=" + simple3 +"</br></br>");
+
+var simple = str.match (/(\d)(\d)+/);
+document.write("simple=" + simple +"</br></br>");
+
+var simple3 = str.match (/([\d\d])+(\d)/);
+document.write("simple3=" + simple3 +"</br></br>");
+
+var matches = str.match (/(\d+)([^\d]+)(\d+)/);
+document.write("match=" + matches);
+
+</script>
+
+
+</body>
+</html>

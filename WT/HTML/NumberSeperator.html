@@ -1,0 +1,23 @@
+<html>
+<body>
+<b>
+Print a number with commas as thousands
+    separators in JavaScript
+<p>Output : <span class="output"></span>
+</p>
+  <script type="text/javascript">
+
+    function separateNumber(givenNumber ) {
+        //givenNumber = 123456789;
+      
+        nfObject = new Intl.NumberFormat('en-US');
+        output = nfObject.format(givenNumber);
+      
+        document.querySelector('.output').textContent = output;
+      
+    }
+var givenNumber =prompt("Enter a number"," ");
+separateNumber(givenNumber );
+</script>
+</body>
+</html>

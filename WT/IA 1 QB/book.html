@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      ul {
+        list-style: none;
+      }
+      li:before {
+        content: "";
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        margin-right: 10px;
+      }
+      li:nth-child(1):before {
+        background-image: url('book1.jpeg');
+      }
+      li:nth-child(2):before {
+        background-image: url('book2.jpg');
+      }
+      li:nth-child(3):before {
+        background-image: url('book3.jpg');
+      }
+      li:nth-child(4):before {
+        background-image: url('book4.png');
+      }
+      li:nth-child(5):before {
+        background-image: url('book5.jpg');
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Book 1</li>
+      <li>Book 2</li>
+      <li>Book 3</li>
+      <li>Book 4</li>
+      <li>Book 5</li>
+    </ul>
+  </body>
+</html>

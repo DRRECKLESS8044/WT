@@ -1,0 +1,26 @@
+p.p1{color: black;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: lighter;}
+p.p2{color: green; 
+    font-size: larger;
+    font-family: Arial;
+    font-style: italic;}
+p.p3{color: aqua;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: oblique;}
+p.p4{color: chocolate;
+    font-family: sans-serif; 
+    font-weight: lighter;
+    font-style: italic;}
+p.p5{color: blue;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+p.p6{color: darkgreen;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;}
+p.p7{color: orange;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}

@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title> SWITCH </title></head>
+<body>
+<script type = "text/javascript" >
+
+var my_list1 =[5,3,7,-3,6,5,9];
+var my_list2 =[5,3,7,3,8,9];
+document.write("Array of my_list1 is : ", my_list1, " <br /> <br />");
+document.write("Array of my_list2 is : ", my_list2, " <br /> <br />");
+
+function median(list)
+{
+list.sort(function(a,b) {return a-b;});
+
+
+var list_len =list.length;
+if((list_len %2)==1)
+return list[Math.floor(list_len/2)];
+else
+return Math.round((list[list_len/2-1]+list[list_len/2])/2);
+}
+
+var med1 = median(my_list1);
+document.write("Median of [",my_list1, "] is :", med1, " <br /> <br />");
+var med2 = median(my_list2);
+document.write("Median of [",my_list2, "] is :", med2, " <br /> <br />");
+
+</script>
+</body>
+</html>
